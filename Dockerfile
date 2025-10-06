@@ -1,3 +1,3 @@
 FROM alpine:latest
-ARG NAME=Captain
+ENV NAME="Captain"
 CMD echo "Hello, ${NAME}!"
