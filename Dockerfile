@@ -1,2 +1,3 @@
 FROM alpine:latest
-CMD echo "Hello, Captain!"
+ARG NAME=Captain
+CMD echo "Hello, ${NAME}!"
